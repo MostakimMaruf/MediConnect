@@ -33,7 +33,7 @@
 
     <footer class="footer mt-auto py-3">
         <div class="container text-center">
-            <span class="text-light">&copy; Doctor Appointment System by Pratikshya Karki. All rights reserved.</span>
+            <span class="text-light">&copy; Doctor Appointment System by Mostakim Maruf & Mahmuda JHumur. All rights reserved.</span>
         </div>
     </footer>
 </body>

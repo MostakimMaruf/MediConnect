@@ -12,7 +12,8 @@
 <?php
 session_start();
 
-require("../config/db-connect.php");
+// require("../config/db-connect.php");
+require(".././mediconnect/config/db-connect.php");
 include 'include/header.php';
 ?>
 
