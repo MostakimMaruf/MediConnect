@@ -1,0 +1,65 @@
+
+
+body {
+    overflow-x: hidden; 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #2C5F8A;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.sidebar-hidden {
+    transform: translateX(-100%);
+}
+
+.content {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+}
+
+.content-expanded {
+    margin-left: 250px;
+}
+
+#toggleSidebar {
+    position: fixed;
+    top: 10px;
+    left: 260px; 
+    z-index: 1001; 
+    transition: left 0.3s ease;
+}
+
+.sidebar-hidden + #toggleSidebar {
+    left: 10px;
+}
+
+.hover-bg-light:hover {
+    background-color: white;
+    color: black;
+}
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar a:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-block a {
+    color: black;
+}
+
+.sidebar .btn-block {
+    color: black; 
+    background-color: white; 
+}

@@ -1,0 +1,15 @@
+Login details for patient:
+1. username: patient1 | password:patient123
+2. username: patient2 | password:patient123
+3. username: patient4 | password:patient123
+
+
+Login details for doctor:
+1. username: doctor1 | password:doctor123
+2. username: doctor2 | password:doctor123
+3. username: doctor4 | password:doctor123
+4. username: dpctor5 | password:doctor123
+
+
+Login details for admin:
+1. username: admin | password:admin123
