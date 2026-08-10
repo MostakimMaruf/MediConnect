@@ -1,5 +1,5 @@
 <?php 
-require("../p3/config/db-connect.php"); 
+require(".././mediconnect/config/db-connect.php");
 ?>
 <?php
 if (isset($_POST['submit'])) {
