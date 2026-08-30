@@ -25,9 +25,9 @@ include 'include/header.php';
         
         <div class="mt-5">
             <?php if (isset($_SESSION['patient_id'])): ?>
-                <a class="btn btn-primary" href="/p3/appointment/appoint.php" style="background-color: #2C5F8A;">Make an Appointment</a>
+                <a class="btn btn-primary" href="appointment/appoint.php" style="background-color: #2C5F8A;">Make an Appointment</a>
             <?php else: ?>
-                <a class="btn btn-primary" style="background-color: #2C5F8A;" href="/p3/login.php">Login to Make an Appointment</a>
+                <a class="btn btn-primary" style="background-color: #2C5F8A;" href="login.php">Login to Make an Appointment</a>
             <?php endif; ?>
         </div>
     </div>

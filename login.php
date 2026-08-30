@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <button type="submit" class="btn btn-primary btn-block" style="background-color: #2C5F8A; width: 100%;">Login</button>
           </form>
           <div class="text-center mt-3">
-            <p class="text-muted">New patient? <a href="/p3/signup.php" class="text-primary">Sign up</a></p>
+            <p class="text-muted">New patient? <a href="/signup.php" class="text-primary">Sign up</a></p>
           </div>
         </div>
       </div>

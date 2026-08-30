@@ -99,7 +99,7 @@ include 'include/header.php';
             <?php endif; ?>
           </form>
           <div class="text-center mt-3">
-            <p class="text-muted">Already have an account? <a href="/p3/login.php" class="text-primary">Login</a></p>
+            <p class="text-muted">Already have an account? <a href="/login.php" class="text-primary">Login</a></p>
           </div>
         </div>
       </div>

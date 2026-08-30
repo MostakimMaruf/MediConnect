@@ -21,7 +21,6 @@ $patient_count = $patient_count_result->fetch_assoc()['count'];
 $appointment_count_query = "SELECT COUNT(*) AS count FROM appointment";
 $appointment_count_result = $conn->query($appointment_count_query);
 $appointment_count = $appointment_count_result->fetch_assoc()['count'];
-
 $conn->close();
 ?>
 <!DOCTYPE html>
@@ -63,7 +62,7 @@ $conn->close();
           </form>
         </div>
         <div class="col-md-4 mb-4">
-          <form action="/p3/appointment/read_appointment.php" method="get">
+          <form action="read_appointment.php" method="get">
             <button type="submit" class="card bg-danger text-white p-4 w-100 border-0">
               <div class="card-body">
                 <h2 class="card-title">Appointments</h2>
